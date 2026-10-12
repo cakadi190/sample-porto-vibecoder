@@ -1,0 +1,9 @@
+---
+description: Always read the PRD and agent rules before working in this repo
+alwaysApply: true
+---
+
+Before planning or editing, read `docs/PRD.md` (the product requirements) and
+`AGENTS.md` (agent rules). They define the personal CV sample project, its data
+contract (`app/data/cv.ts`, `app/types/cv.ts`, `useCv()`), and the creative
+freedom allowed in layout and styling. Target Nuxt 4 stable only.
